@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.headers {
+  @apply mt-4 mb-1 text-2xl font-extrabold tracking-tight text-center text-blue-500 sm:text-2xl;
+}
+.inputfields {
+  @apply block w-full px-4 py-3 text-gray-500 border-2 border-gray-300 rounded-md shadow-lg;
+}
+
+.form {
+  @apply grid grid-cols-1 gap-8 px-4 py-2 mt-1 rounded shadow-lg lg:max-w-7xl lg:mx-auto;
+}
+.h3 {
+  @apply text-6xl;
+}
+label {
+  color: #fff;
+  display: grid;
+  height: 50px;
+  align-items: center;
+  justify-content: center;
+  background-color: #3d81f6bc;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  margin-bottom: -5px;
+  padding: 5px 15px;
+}
+.inputfields {
+  border-top-right-radius: 0px;
+  border-top-left-radius: 0px;
+  border-top: none;
+}
+
+.formulate-input[data-classification="text"] {
+  color: green;
+}
